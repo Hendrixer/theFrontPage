@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/item_reddit">
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Some Person"/>
+
+    <TextView
+        android:id="@+id/subreddit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="subreddit"/>
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:maxHeight="140dp"
+        android:maxWidth="140dp"
+        android:id="@+id/thumbnail"/>
+
+</LinearLayout>
